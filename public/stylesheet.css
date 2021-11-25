@@ -1,0 +1,20 @@
+@import url("https://use.typekit.net/ial1hxa.css");
+#container {
+  position: absolute;
+  background: #dce3dc;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.one,
+.two,
+.three {
+  border-right: 1px solid darkgreen;
+  width: calc(100% / 3);
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
