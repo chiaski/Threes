@@ -141,6 +141,17 @@ h1,h2,h3{
     filter: hue-rotate(180deg);
   }
   
+
+  div{
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2em;
+  }
+  
+}
+
+
   p{
     z-index: 0;
     font-size: 1em;
@@ -154,18 +165,8 @@ h1,h2,h3{
     padding: 0 1em;
     line-height: 90%;
   font-family: altesse-std-24pt, sans-serif !important;
-    filter: hue-rotate(180deg);
     margin-top: -.5em;
   }
-
-  div{
-    box-sizing: border-box;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 2em;
-  }
-  
-}
 
 h2 {
   font-weight: 400;

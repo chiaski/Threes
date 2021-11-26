@@ -125,26 +125,27 @@ h1, h2, h3 {
 .two.two-cat a:hover {
   filter: hue-rotate(180deg);
 }
-.two.two-cat p {
+.two.two-cat div {
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2em;
+}
+
+p {
   z-index: 0;
   font-size: 1em;
   padding: 0.5em 1em;
   color: #dce1db;
   mix-blend-mode: exclusion;
 }
-.two.two-cat p.fancy {
+
+p.fancy {
   font-size: 2em;
   padding: 0 1em;
   line-height: 90%;
   font-family: altesse-std-24pt, sans-serif !important;
-  filter: hue-rotate(180deg);
   margin-top: -0.5em;
-}
-.two.two-cat div {
-  box-sizing: border-box;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 2em;
 }
 
 h2 {
