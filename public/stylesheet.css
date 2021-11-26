@@ -18,6 +18,20 @@ body {
   height: 100%;
 }
 
+.static {
+  z-index: 999;
+  position: fixed;
+  width: 250%;
+  height: 250%;
+  top: -50%;
+  left: -50%;
+  opacity: 0.8;
+  pointer-events: none;
+  background-repeat: repeat;
+  background-size: 300%;
+  animation: bg-animation 2s infinite;
+}
+
 h1, h2, h3 {
   font-weight: normal;
   line-height: 95%;
@@ -92,6 +106,10 @@ h1, h2, h3 {
 .two.two-cat {
   overflow-y: scroll;
   padding-bottom: 50vh;
+}
+.two.two-cat #one, .two.two-cat #two, .two.two-cat #three {
+  padding-bottom: 5vh;
+  margin: 5vh 0;
 }
 .two.two-cat #intro {
   display: block;
@@ -172,6 +190,42 @@ iframe {
 ._nav a {
   display: block;
   margin-bottom: 0.5em;
+}
+
+@keyframes bg-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-5%, -5%);
+  }
+  20% {
+    transform: translate(-10%, 5%);
+  }
+  30% {
+    transform: translate(5%, -10%);
+  }
+  40% {
+    transform: translate(-5%, 15%);
+  }
+  50% {
+    transform: translate(-10%, 5%);
+  }
+  60% {
+    transform: translate(9%, 0);
+  }
+  70% {
+    transform: translate(0, 10%);
+  }
+  80% {
+    transform: translate(-9%, 0);
+  }
+  90% {
+    transform: translate(6%, 5%);
+  }
+  100% {
+    transform: translate(5%, 0);
+  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
